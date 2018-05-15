@@ -3,22 +3,14 @@
   padding: 0;
   overflow-x: hidden;
 }
+body {
+  background-color: #777;
+}
 a {
   text-decoration: none;
   color: initial;
 }
 
-h1 {
-  font-family: Raleway;
-  font-size: 15vmin;
-  margin: 5vh 0 0 10vmin;
-  color: #fff;
-}
-.front {
-  width: 100vw;
-  height: 100vh;
-  background-color: #282828;
-}
 nav {
   position: fixed;
   bottom: 0;
@@ -34,4 +26,31 @@ nav a{
   font-family: Muli;
   font-size: 6vmin;
   color: white;
+}
+h1 {
+  font-family: Raleway;
+  font-size: 15vmin;
+  margin: 5vh 0 0 10vmin;
+  color: #fff;
+}
+.front {
+  width: 100vw;
+  height: 100vh;
+  background-color: #282828;
+}
+.news {
+  width: calc(90vw - 18vmin);
+  height: 100vh;
+  background-color: #444;
+}
+.news h3{
+  font-family: "Libre Baskerville";
+  font-size: 15vmin;
+  height: 17vmin;
+  overflow-y: hidden;
+  width: 48vmin;
+  text-align: center;
+  color: #fff;
+  margin: 3vh 0 0 10vmin;
+  border-bottom: 4px solid white;
 }
