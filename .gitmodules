@@ -1,0 +1,3 @@
+[submodule "style1"]
+	path = style1
+	url = https://github.com/epixtallion/t29-site.git
