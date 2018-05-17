@@ -16,11 +16,13 @@ nav {
   bottom: 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   width: 80vw;
-  height: 14vmin;
+  height: 20vmin;
   justify-content: space-evenly;
   left: 50%;
   transform: translateX(-50%);
+  overflow-y: hidden;
 }
 nav a{
   font-family: Muli;
@@ -53,4 +55,38 @@ h1 {
   color: #fff;
   margin: 3vh 0 0 10vmin;
   border-bottom: 4px solid white;
+}
+.calendar{
+  height: 80vmin;
+  width: calc(90vw - 18vmin);
+  background-color: #999;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.calendar h3{
+  font-family: Muli;
+  font-size: 5vmin;
+  height: 8vmin;
+  margin-bottom: 2vmin;
+  width: calc(90vw - 18vmin);
+  color: #fff;
+  text-align: center;
+  margin-top: 3vmin;
+}
+.calendar iframe {
+  width: calc(80vw - 18vmin);
+  height: 60vmin;
+  margin: 0 auto;
+}
+.about {
+  height: 100vh;
+}
+@media (max-width: 110vh) {
+  nav a{
+    margin: 0 3vmin 0 3vmin;
+  }
+
 }
